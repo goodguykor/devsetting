@@ -33,7 +33,7 @@ ROOT=$(cd $(dirname ${BASH_SOURCE[0]})/.. && pwd)
 
 . $ROOT/envset.sh
 . $ROOT/install_scripts/python.sh
-. $ROOT/install_scripts/protobuf.sh
+#. $ROOT/install_scripts/protobuf.sh
 
 PKG_NAME="opencv"
 REPO_URL=https://github.com/opencv/opencv
@@ -48,12 +48,6 @@ pip2 install numpy && pip3 install numpy
 
 #TODO
 # remove package manager dependency
-if [ $OS == 'centos' ];then
-  $SUDO yum install -y libjpeg-turbo-devel jasper-devel openexr-devel libtiff-devel libwebp-devel libdc1394-devel libv4l-devel gstreamer-plugins-base-devel tbb-devel
-elif [ $OS == 'ubuntu' ];then
-  $SUDO apt install -y libjpeg8-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libgtk2.0-dev gfortran tesseract-ocr libtesseract-dev libleptonica-dev libatlas-dev libdc1394-22-dev
-fi
-
 if $(which opencv_version); then
   INSTALLED_VERSION=$(opencv_version)
 fi
