@@ -158,8 +158,8 @@ let g:airline_theme='bubblegum'
 
 ">> highlight
 
-hi Search cterm=NONE ctermfg=grey ctermbg=yellow
-hi VIsual cterm=NONE ctermfg=grey ctermbg=yellow
+hi Search cterm=NONE ctermfg=yellow ctermbg=blue
+hi VIsual cterm=NONE ctermfg=yellow ctermbg=blue
 "hi ColorColumn ctermbg=235 guibg=#2c2d27
 "execute "set colorcolumn=" . join(range(81,335), ',')
 
