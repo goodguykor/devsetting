@@ -104,5 +104,6 @@ case "$TERM" in
     ;;
 esac
 
+alias vi=vim
 . $HOME/.promptrc
 . $HOME/.git-completion

@@ -1,6 +1,6 @@
 [user]
-	name = Gwangmin Lee
-	email = gwangmin.lee@naverlabs.com
+	name = Deokhwa Kim
+	email = deokhwa.kim@naverlabs.com
 [core]
     editor = vim
 	autocrlf = input
@@ -23,10 +23,10 @@
 [credential]
     helper = cache --timeout=3600
 [credential "https://github.com"]
-    username = aiqu
+    username = goodguykor
 [credential "https://es.naverlabs.com"]
-    username = gwangmin.lee
+    username = deokhwa.kim
 [credential "https://oss.navercorp.com"]
-    username = gwangmin.lee
+    username = deokhwa.kim
 [help]
 	autocorrect = 1
